@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<HTML>
+    <HEAD>
+        <TITLE>FORMS</TITLE>
+    </HEAD>
+    <BODY>
+        <H1 ALIGN="CENTER">FORMS</H1>
+        <DIV>
+            <FORM ACTION="PROJECT1.HTML">
+                <FIELDSET>
+                <LEGEND>STUDENT INFO</LEGEND>
+                <TABLE ALIGN="CENTER" BORDER="1" CELLSPACING="0" CELLPADDING="2">
+                <TR ALIGN="CENTER">
+                <TD><LABEL FOR="NAME">NAME : </LABEL></TD>
+                <TD><INPUT TYPE="TEXT" ID="NAME" NAME="NAME" PLACEHOLDER="ENTER NAME" REQUIRED></TD>
+                </TR>
+                <TR ALIGN="CENTER">
+                <TD><LABEL FOR="EMAIL">EMAIL : </LABEL></TD>
+                <TD><INPUT TYPE="EMAIL" ID="EMAIL" NAME="EMAIL" PLACEHOLDER="ENTER EMAIL" REQUIRED></TD>
+                </TR>
+                <TR ALIGN="CENTER">
+                <TD><LABEL FOR="PASSWORD">PASSWORD : </LABEL></TD>
+                <TD><INPUT TYPE="PASSWORD" ID="PASSWORD" PLACEHOLDER="ENTER PASSWORD" REQUIRED MINLENGTH="8" ></TD>
+                </TR>
+                <TR ALIGN="CENTER">
+                <TD><LABEL FOR="PHONENUMBER">PHONE NUMBER : </LABEL></TD>
+                <TD><INPUT TYPE="TEL" ID="PHONENUMBER" PLACEHOLDER="ENTER PHONE NUMBER" REQUIRED></TD>
+                </TR>
+                <TR ALIGN="CENTER">
+                <TD><LABEL FOR="CHECKBOX">ARE YOU 18+ ? : </LABEL></TD>
+                <TD><INPUT TYPE="CHECKBOX" ID="CHECKBOX" REQUIRED></TD>
+                </TR>
+                <TR ALIGN="CENTER">
+                <TD><LABEL FOR="GENDER">GENDER : </LABEL></TD>
+                <TD><LABEL FOR="GENDER1">MALE</LABEL>
+                <INPUT TYPE="RADIO" ID="GENDER1" VALUE="MALE" NAME="GENDER">
+                <LABEL FOR="GENDER2">FEMALE</LABEL>
+                <INPUT TYPE="RADIO" ID="GENDER2" VALUE="FEMALE" NAME="GENDER"></TD>
+                </TR>
+                <TR ALIGN="CENTER">
+                <TD><LABEL FOR="DOB">ENTER DOB : </LABEL></TD>
+                <TD><INPUT TYPE="DATE" ID="DOB" REQUIRED></TD>
+                </TR>
+                <TR ALIGN="CENTER">
+                <TD><LABEL FOR="FILE">UPLOAD FILE : </LABEL></TD>
+                <TD><INPUT TYPE="FILE" ID="FILE" REQUIRED></TD>
+                </TR>
+                <TR ALIGN="CENTER">
+                <TD><LABEL FOR="CITY">SELECT YOUR CITY : </LABEL></TD>
+                <TD><SELECT NAME="CITY" ID="CITY">
+                    <OPTION VALUE="DELHI">DELHI</OPTION>
+                    <OPTION VALUE="LUCKNOW" SELECTED>LUCKNOW</OPTION>
+                    <OPTION VALUE="MUMBAI">MUMBAI</OPTION>
+                    <OPTION VALUE="BANGLORE">BANGLORE</OPTION>
+                    <OPTION VALUE="KOLKATA">KOLKATA</OPTION>
+                </SELECT></TD>
+                </TR>
+                <TR ALIGN="CENTER">
+                <TD><LABEL FOR="FEEDBACK">FEEDBACK</LABEL></TD>
+                <TD><TEXTAREA  ID="FEEDBACK" NAME="FEEDBACK" PLACEHOLDER="ENTER FEEDBACK..."></TEXTAREA></TD>
+                </TR>
+                <TR ALIGN="CENTER" COLSPAN="2">
+                <TD COLSPAN="2"><BUTTON TYPE="SUBMIT">SUBMIT FORM</BUTTON></TD>
+                </TR>
+                </FIELDSET>
+                </TABLE>
+                
+                
+            </FORM>
+
+        </DIV>
+    </BODY>
+</HTML>

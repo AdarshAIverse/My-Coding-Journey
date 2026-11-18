@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<HTML>
+    <HEAD>
+        <TITLE>
+            FORM
+        </TITLE>
+    </HEAD>
+    <BODY>
+        <HEADER>
+        <H1 ALIGN="CENTER"><FONT COLOR="RED">PIZZA HUT DELIVERY</FONT></H1>
+        <BR>
+        <H2 ALIGN="CENTER">ONLINE DELIVERY FORM</H2>
+        <BR>
+        <H4 ALIGN="CENTER">*REQUIRED DETAILS</H4>
+        <FORM ACTION="THANKYOU.HTML">
+        </HEADER>
+        <MAIN>
+            <SECTION>
+                <FIELDSET>
+                    <LEGEND>CUSTOMER DETAILS</LEGEND>
+                <TABLE>
+                <TR>
+                <TD><LABEL FOR="NAME">*NAME:</LABEL></TD>
+                <TD><INPUT TYPE="TEXT" NAME="NAME" ID="NAME" PLACEHOLDER="ENTER NAME" REQUIRED></TD>
+                </TR>
+                <TR>
+                <TD><LABEL FOR="ADDRESS">*ADDRESS:</LABEL></TD>
+                <TD><INPUT TYPE="TEXT" NAME="ADDRESS" ID="ADDRESS" PLACEHOLDER="ENTER ADDRESS" REQUIRED></TD>
+                </TR>
+                <TR>
+                <TD><LABEL FOR="TOWN/CITY">*TOWN/CITY:</LABEL></TD>
+                <TD><INPUT TYPE="TEXT" NAME="TOWN/CITY" ID="TOWN/CITY" PLACEHOLDER="ENTER TOWN/CITY" REQUIRED></TD>
+                </TR>
+                <TR>
+                <TD><LABEL FOR="POSTCODE">*POSTCODE:</LABEL></TD>
+                <TD><INPUT TYPE="TEXT" NAME="POSTCODE" ID="POSTCODE" PLACEHOLDER="ENTER POSTCODE" REQUIRED></TD>
+                </TR>
+                <TR>
+                <TD><LABEL FOR="TELEPHONE">*TELEPHONE:</LABEL></TD>
+                <TD><INPUT TYPE="TEL" NAME="TELEPHONE" ID="TELEPHONE" PLACEHOLDER="ENTER TELEPHONE" MAXLENGTH="10" MINLENGTH="10"  REQUIRED></TD>
+                </TR>
+                <TR>
+                <TD><LABEL FOR="EMAIL">*EMAIL:</LABEL></TD>
+                <TD><INPUT TYPE="EMAIL" NAME="EMAIL" ID="EMAIL" PLACEHOLDER="ENTER EMAIL" REQUIRED></TD>
+                </TR>
+                </TABLE>
+                </FIELDSET>
+            </SECTION>
+            <SECTION>
+                <TABLE>
+                <TR>
+                <TD><FIELDSET>
+                    <LEGEND>TOPPINGS*</LEGEND>
+                    <TABLE>
+                        <TR>
+                            <TD><LABEL FOR="MARGHERITA">MARGHERITA</LABEL></TD>
+                            <TD><INPUT TYPE="RADIO" NAME="TOPPING" ID="MARGHERITA"></TD>
+                        </TR>
+                        <TR>
+                            <TD><LABEL FOR="FOUR_SEASONS">FOUR&nbsp;SEASONS</LABEL></TD>
+                            <TD><INPUT TYPE="RADIO" NAME="TOPPING" ID="FOUR_SEASONS"></TD>
+                        </TR>
+                        <TR>
+                            <TD><LABEL FOR="MEAT_FEAST">MEAT&nbsp;FEAST</LABEL></TD>
+                            <TD><INPUT TYPE="RADIO" NAME="TOPPING" ID="MEAT_FEAST"></TD>
+                        </TR>
+                    </TABLE>
+                </FIELDSET></TD>
+                <TD><FIELDSET>
+                    <LEGEND>SIZE*</LEGEND>
+                    <TABLE>
+                        <TR>
+                            <TD><LABEL FOR="SMALL">SMALL</LABEL></TD>
+                            <TD><INPUT TYPE="RADIO" ID="SMALL" NAME="SIZE"></TD>
+                        </TR>
+                        <TR>
+                            <TD><LABEL FOR="MEDIUM">MEDIUM</LABEL></TD>
+                            <TD><INPUT TYPE="RADIO" ID="MEDIUM" NAME="SIZE"></TD>
+                        </TR>
+                        <TR>
+                            <TD><LABEL FOR="LARGE">LARGE</LABEL></TD>
+                            <TD><INPUT TYPE="RADIO" ID="LARGE" NAME="SIZE"></TD>
+                        </TR>
+                    </TABLE>
+                </FIELDSET></TD>
+                <TD><FIELDSET>
+                    <LEGEND>EXTRAS*</LEGEND>
+                    <TABLE>
+                        <TR>
+                            <TD><LABEL FOR="MUSHROOMS">MUSHROOMS</LABEL></TD>
+                            <TD><INPUT TYPE="CHECKBOX" ID="MUSHROOMS"></TD>
+                        </TR>
+                        <TR>
+                            <TD><LABEL FOR="GREEN_PEPPERS">GREEN&nbsp;PEPPERS</LABEL></TD>
+                            <TD><INPUT TYPE="CHECKBOX" ID="GREEN_PEPPERS"></TD>
+                        </TR>
+                        <TR>
+                            <TD><LABEL FOR="ANCHOVIES">ANCHOVIES</LABEL></TD>
+                            <TD><INPUT TYPE="CHECKBOX" ID="ANCHOVIES"></TD>
+                        </TR>
+                        <TR>
+                            <TD><LABEL FOR="EXTRA_CHEESE">EXTRA&nbsp;CHEESE</LABEL></TD>
+                            <TD><INPUT TYPE="CHECKBOX" ID="EXTRA_CHEESE"></TD>
+                        </TR>
+                    </TABLE>
+                </FIELDSET></TD>
+                </TR>
+            </TABLE>
+            </SECTION>
+            <SECTION>
+                <FIELDSET>
+                    <LEGEND>DELIVERY*</LEGEND>
+                    <TABLE>
+                        <TR>
+                            <TD><LABEL FOR="TIME">PREFERRED DELIVERY TIME:</LABEL>
+                            <INPUT TYPE="TIME" ID="TIME"></TD>
+                        </TR>
+                        <TR>
+                            <TD COLSPAN="2"><LABEL FOR="INSTRUCTIONS">DELIVERY INSTRUCTIONS:</LABEL>
+                            <BR>
+                            <TEXTAREA ID="INSTRUCTIONS" NAME="INSTRUCTIONS" ROWS="10" COLS="200" PLACEHOLDER="ENTER DELIVERY INSTRUCTIONS..."></TEXTAREA></TD>
+                        </TR>
+                    </TABLE>
+                </FIELDSET>
+            </SECTION>
+            <FOOTER>
+                <TABLE ALIGN="CENTER">
+                    <TR>
+                        <TD><INPUT TYPE="SUBMIT" VALUE="SUBMIT"></TD>
+                    </TR>
+                </TABLE>
+            </FOOTER>
+            
+        </MAIN>
+        </FORM>
+    </BODY>
+</HTML>
